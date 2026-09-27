@@ -14,9 +14,9 @@ public:
     void setGREEN(int a)                    {GREEN = a;}
     void setBLUE(int a)                     {BLUE = a;}
 
-    void getRED()                           {return RED;}
-    void getGREEN()                         {return GREEN;}
-    void getBLUE()                          {return BLUE;}
+    int getRED()                           {return RED;}
+    int getGREEN()                         {return GREEN;}
+    int getBLUE()                          {return BLUE;}
 
     void printdata(){
         cout << " RED Color Value: " << RED << endl;
