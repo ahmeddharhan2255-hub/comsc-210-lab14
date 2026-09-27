@@ -40,28 +40,34 @@ int main(){
     color1.setGREEN(200);
     color1.setBLUE(106);   
     color1.print();
+    print(color1);
 
     Color color2;
     color2.setRED(37);
     color2.setGREEN(48);
     color2.setBLUE(147);
     color2.print();
+    print(color1);
 
     Color color3;
     color3.setRED(137);
     color3.setGREEN(60);
     color3.setBLUE(116);
     color3.print();
+    print(color1);
 
     Color color4;
     color4.setRED(93);
     color4.setGREEN(3);
     color4.setBLUE(14);
     color4.print();
+    print(color1);
 
     return 0;
 }
 
-void display(){
-    
+void display(Color s){
+    cout << "(" << s.getRED() << ", " << s.getGREEN();
+    cout << ", " << s.getBLUE() << ")";
+
 }
