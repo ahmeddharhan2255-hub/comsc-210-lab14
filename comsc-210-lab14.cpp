@@ -6,18 +6,18 @@ using namespace std;
 //Class Color
 class Color{
 private:
-    //Private class definitions
+    //Private member variables;
     int RED;
     int GREEN;
     int BLUE;
 
 public:
-    //Setters
+    //Member Setters
     void setRED(int a)                      {RED = a;}
     void setGREEN(int a)                    {GREEN = a;}
     void setBLUE(int a)                     {BLUE = a;}
 
-    //Getters
+    //Member Getters
     int getRED()                           {return RED;}
     int getGREEN()                         {return GREEN;}
     int getBLUE()                          {return BLUE;}
@@ -36,28 +36,32 @@ public:
 
 int main(){
     Color color1;
-    color1.setRED(2);
-    color1.setGREEN(3);
-    color1.setBLUE(4);   
+    color1.setRED(253);
+    color1.setGREEN(200);
+    color1.setBLUE(106);   
     color1.print();
 
     Color color2;
-    color1.setRED(2);
-    color1.setGREEN(3);
-    color1.setBLUE(4);
-    color1.print();
+    color2.setRED(37);
+    color2.setGREEN(48);
+    color2.setBLUE(147);
+    color2.print();
 
     Color color3;
-    color1.setRED(2);
-    color1.setGREEN(3);
-    color1.setBLUE(4);
-    color1.print();
+    color3.setRED(137);
+    color3.setGREEN(60);
+    color3.setBLUE(116);
+    color3.print();
 
     Color color4;
-    color1.setRED(2);
-    color1.setGREEN(3);
-    color1.setBLUE(4);
-    color1.print();
+    color4.setRED(93);
+    color4.setGREEN(3);
+    color4.setBLUE(14);
+    color4.print();
 
     return 0;
+}
+
+void display(){
+    
 }
